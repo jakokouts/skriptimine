@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+# Tutvustus
+#
+echo -n "Jako Johannes Kouts" # nimi,
+echo -n ", ISP217, " # oppegrupp,
+echo "Aine tundub keeruline, kuid huvitav" # kuidas aine tundub,
+echo "Kui piisavalt õpin ja pingutan võin ka kuskile jõuda tänu sellele ainele" # mulje ja edasijõudmine
+#
+#
+#skripti lõpp
