@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+# kasutaja tervitus
+#
+# skripti algus
+echo Tere tulemast, Jako Johannes Kõuts
+#
+# skripti lõpp
