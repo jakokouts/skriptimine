@@ -1,0 +1,11 @@
+#!/bin/bash
+#kolmnurga hüpotenuusi arvutamine
+echo -n "Sisesta a külg: "
+read a
+echo -n "Sisesta b külg: "
+read b
+a2=`echo "scale=2;$a^2" | bc`
+b2=`echo "scale=2;$b^2" | bc`
+c2=`echo "scale=2;$a2+$b2" | bc`
+c=`echo "scale=2;sqrt($c2)" | bc `
+echo "c= " $c
