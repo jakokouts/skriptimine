@@ -1,0 +1,17 @@
+#!/bin/bash
+#
+#esimese 10 arvu summa - ainult paarisarvud
+#
+summa=o
+for (( arv=1; arv<11; arv++ ))
+do
+jaak=$(($arv % 2))
+if [ $jaak -eq 0 ]; then
+summa=$(($summa + $arv))
+echo $summa
+fi
+done
+echo "arvude vahemikus 1 kuni 10 (kaasaarvatud) paarisarvude summa on: $summa"
+#
+#
+#lõpp
